@@ -1,5 +1,5 @@
 {
-  "name": "neolikotsi/laravel-smsportal",
+  "name": "rouxtaccess/laravel-smsportal",
   "description": "SMS Portal Notification Channel for laravel",
   "keywords": ["laravel", "notifications", "sms portal"],
   "license": "MIT",
@@ -7,15 +7,21 @@
     "name": "Neo Likotsi",
     "email": "nlikotsi5@gmail.com",
     "role": "Developer"
-  }],
+  },
+    {
+      "name": "John Roux",
+      "email": "john.roux1@gmail.com",
+      "role": "Developer"
+    }],
   "require": {
     "php" : ">=7.0",
-    "illuminate/config": "~5.0|~6.0|~7.0",
-    "illuminate/notifications": "~5.5|~6.0|~7.0",
-    "guzzlehttp/guzzle": "~5.0|~6.0|~7.0",
+    "illuminate/config": ">=8.0",
+    "illuminate/notifications": ">=8.0",
+    "guzzlehttp/guzzle": ">=7.0",
     "neolikotsi/php-smsportal": "^1.0"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "mockery/mockery": "^1.0"
   },
   "autoload": {
